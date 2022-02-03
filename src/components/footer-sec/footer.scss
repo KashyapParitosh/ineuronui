@@ -1,0 +1,102 @@
+.footerMainContainer {
+  background-color: #233c7b;
+  padding: 20px;
+
+  .footer-sec {
+    // border: 1px solid red;
+    // background-color:royalblue;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    .footerbox2 {
+      // border: 1px solid red;
+      padding-bottom: 25px;
+      display: flex;
+      width: 970px;
+      justify-content: space-between;
+
+      .try {
+        .footer-LinksAndLogo {
+          display: flex;
+          border-bottom: 1px solid whitesmoke;
+          padding: 5px 0;
+        //   border: 2px solid yellow;
+
+          .footer-socialLink-box {
+            display: flex;
+            gap: 70px;
+            .footerLogo img {
+              width: 190px;
+            }
+            .footer-socialLink {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 15px;
+    color: aliceblue;
+            }
+          }
+        }
+        .footer-address-details {
+          text-align: left;
+          color: rgb(212, 209, 209);
+          padding: 4px 0;
+          p {
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-aboutAndContact {
+    // border: 1px solid white;
+    color: rgb(212, 209, 209);
+    display: flex;
+    gap: 100px;
+    .footerBoxes{
+        .sameClass{
+            border-bottom: 1px solid white;
+            padding: 11px 0px;
+            text-align: left; 
+        }
+        .sameClass2{
+            display: flex;
+            text-align: center;
+            padding: 10px 0px;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    }
+  }
+
+  .footer-box2 {
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid;
+
+    .ISO-Logo-box {
+      display: flex;
+      color: rgb(212, 209, 209);
+      padding-bottom: 7px;
+      /* flex-direction: column; */
+      justify-content: flex-start;
+      .isoLogo{
+          img{
+              height: 75px;
+          }
+      }
+    }
+
+    .terms-condition-box {
+      display: flex;
+      color: rgb(212, 209, 209);
+      border-top: 1px solid whitesmoke;
+      justify-content: space-between;
+    }
+  }
+}
